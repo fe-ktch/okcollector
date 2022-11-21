@@ -46,7 +46,7 @@ public class CollectorController extends MainController {
                 }                
             } 
             Integer wordCount = mainWindow.wordsModel.getSize();
-            mainWindow.statusBar.setm("Szavak: " + wordCount.toString());
+            mainWindow.statusBar.setMessage("Szavak: " + wordCount.toString());
         }); 
     }   
 }

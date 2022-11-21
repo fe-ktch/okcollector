@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 import javax.swing.border.BevelBorder;
 
 public class StatusBar extends JPanel {
-
+    
     JLabel statusLabel;
 
     public StatusBar(int width) {        
@@ -31,7 +31,7 @@ public class StatusBar extends JPanel {
         size(width, 25);
         setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
         statusLabel = new JLabel("Kész");
-        this.setm("Kész");
+        this.setMessage("Kész");
         this.add(statusLabel);
     } 
     public void size(int x, int y) {
@@ -39,7 +39,7 @@ public class StatusBar extends JPanel {
         setMinimumSize(new Dimension(x, y));
         setPreferredSize(new Dimension(x, y));
     } 
-    public void setm(String message) {
+    public void setMessage(String message) {
         this.statusLabel.setText(message);
     } 
 }
