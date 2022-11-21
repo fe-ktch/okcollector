@@ -1,3 +1,3 @@
 # Szógyűjtő program
 
-Szavak gyűjtése keresztrejtvény készítő programok számára
+Szavak gyűjtése keresztrejtvény készítő programok számára.
