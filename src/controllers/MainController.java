@@ -16,12 +16,9 @@ package controllers;
 
 import views.MainWindow;
 
-// A MainController
 public class MainController {
     MainWindow mainWindow;
     public MainController(MainWindow mainWindow) {
         this.mainWindow = mainWindow;
-        
     }
-    
 }
