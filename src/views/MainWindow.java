@@ -59,7 +59,7 @@ public class MainWindow extends JFrame {
     public StatusBar statusBar;
 
     public MainWindow() {
-        appLabel = new JLabel("Szógyűjtő");
+        appLabel = new JLabel("Szógyűjtő - Sangare F. Felisha - SZOFT II N - 2022-11-21");
         urlField = new JTextField();        
 
         collectorPanel = new JPanel();

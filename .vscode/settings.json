@@ -3,7 +3,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/home/andras/Library/jsoup/jsoup-1.14.2.jar"
+        "/okcollector/lib/jsoup-1.15.3.jar"
     ],
     "psi-header.config": {
         "forceToTop": true,
